@@ -12,3 +12,9 @@
 Time: 00:00.003, Memory: 10.00 MB
 
 OK (1 test, 1 assertion)
+
+case 2: failed test run
+
+Run the unit test 
+
+	 	 php ./vendor/bin/phpunit app/code/Mytask/UnitTestHello/Test/Unit/HelloTestfail.php 
