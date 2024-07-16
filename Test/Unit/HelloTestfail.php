@@ -5,7 +5,7 @@ namespace Mytask\UnitTestHello\Test\Unit;
 use PHPUnit\Framework\TestCase;
 use Mytask\UnitTestHello\TestingClass\Hellofail;
 
-class HelloTestfail extends TestCase
+class HelloTest extends TestCase
 {
     protected $hello;
 
