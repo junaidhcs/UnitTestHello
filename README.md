@@ -19,7 +19,7 @@ case 2: failed test run
 
 	Run the unit test 
 	
-		 	 php ./vendor/bin/phpunit app/code/Mytask/UnitTestHello/Test/Unit/HelloTestfail.php 
+		 	 php ./vendor/bin/phpunit app/code/Mytask/UnitTestHello/Test/Unit/HelloTest.php 
 	
 	It will show below result
 	
@@ -31,7 +31,7 @@ case 2: failed test run
 		
 		There was 1 failure:
 		
-		1) Mytask\UnitTestHello\Test\Unit\HelloTestfail::testGreet
+		1) Mytask\UnitTestHello\Test\Unit\HelloTest::testGreet
 		Failed asserting that two strings are equal.
 		--- Expected
 		+++ Actual
@@ -39,7 +39,7 @@ case 2: failed test run
 		-'Hello, World!'
 		+'Hello, World'
 		
-		/home/something/magento/app/code/Mytask/UnitTestHello/Test/Unit/HelloTestfail.php:20
+		/home/something/magento/app/code/Mytask/UnitTestHello/Test/Unit/HelloTest.php:20
 		
 		FAILURES!
 		Tests: 1, Assertions: 1, Failures: 1.
